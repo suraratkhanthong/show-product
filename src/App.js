@@ -18,7 +18,7 @@ function App() {
   let [dataContents, setDataContents] = useState([]);
 
   //const urlApi = 'http://localhost:4000/products';
-  const urlApi = 'https://api-o9ek.onrender.com/products';
+  const urlApi = 'https://app-gtdtqs1fe-suraratkhanthong.vercel.app/products';
 
   const fetchApi = async () => {
     setDataContents([])
